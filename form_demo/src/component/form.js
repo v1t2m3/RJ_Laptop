@@ -2,7 +2,7 @@ import React, { useState } from "react";
 const MyForm = () => {
     const [user, setUser] = useState({userName :"Hello", userAge: '0'});
     const submitHandle = (Event) => {
-      //Event.preventDefault();
+      Event.preventDefault();
       alert('Your are submitting ' + user.userName + ' ' + user.userAge)
     }
     const handleChange = event => {

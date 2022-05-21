@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
 //import App from './App';
 import MyForm from './component/form';
+import MyForm2 from './component/form2';
 const container = document.getElementById('root');
 const root = createRoot(container);
-root.render(<MyForm/>);
+root.render(<MyForm2/>);
