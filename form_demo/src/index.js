@@ -5,6 +5,7 @@ import './index.css';
 //import App from './App';
 import MyForm from './component/form';
 import MyForm2 from './component/form2';
+import SelectForm from './component/formSlect';
 const container = document.getElementById('root');
 const root = createRoot(container);
-root.render(<MyForm2/>);
+root.render(<SelectForm/>);
