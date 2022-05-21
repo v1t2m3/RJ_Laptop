@@ -6,6 +6,7 @@ import './index.css';
 import MyForm from './component/form';
 import MyForm2 from './component/form2';
 import SelectForm from './component/formSlect';
+import ValidateForm from './component/validateForm';
 const container = document.getElementById('root');
 const root = createRoot(container);
-root.render(<SelectForm/>);
+root.render(<ValidateForm/>);
